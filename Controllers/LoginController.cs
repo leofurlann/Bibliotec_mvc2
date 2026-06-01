@@ -44,5 +44,6 @@ namespace Bibliotec_MVC_DEV.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Index");
         }
+        
     }
 }
