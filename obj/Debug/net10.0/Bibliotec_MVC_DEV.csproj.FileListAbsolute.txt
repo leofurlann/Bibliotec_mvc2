@@ -495,4 +495,4 @@ C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\refint\
 C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\Bibliotec_MVC_DEV.pdb
 C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\Bibliotec_MVC_DEV.genruntimeconfig.cache
 C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\ref\Bibliotec_MVC_DEV.dll
-C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\compressed\egug2xsrw7-{0}-286eb3ckgg-286eb3ckgg.gz
+C:\Users\41595199896\Desktop\SQL.DEV\Bibliotec_MVC_DEV\obj\Debug\net10.0\compressed\egug2xsrw7-{0}-tc9vqox3d6-tc9vqox3d6.gz

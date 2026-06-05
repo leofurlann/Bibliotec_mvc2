@@ -1,3 +1,4 @@
+using Bibliotec_MVC_DEV;
 using Bibliotec_MVC_DEV.Contexts;
 using Bibliotec_MVC_DEV.Interfaces;
 using Bibliotec_MVC_DEV.Repositories;
@@ -23,6 +24,8 @@ builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddScoped<ILivroRepository, LivroRepository>();
 builder.Services.AddScoped<ILivroService, LivroService>();
+builder.Services.AddScoped<IReservaRepository, ReservaRepository>();
+builder.Services.AddScoped<IReservaService, ReservaService>();
 
 var app = builder.Build();
 

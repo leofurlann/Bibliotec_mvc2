@@ -145,7 +145,7 @@ botoesExcluir.forEach(btn => {
             cancelButtonText: 'Cancelar'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(/Livro/Excluir/{id}, {
+                fetch(`/Livro/Excluir/${id}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -218,7 +218,7 @@ botoesExcluir.forEach(btn => {
 //             </div>`;
 //         });
 //     } else {
-//         template = <span class="cad_span_cat_vazio" style="color: var(--cor_texto_fraco);">Nenhuma categoria selecionada</span>;
+//         template = `<span class="cad_span_cat_vazio" style="color: var(--cor_texto_fraco);">Nenhuma categoria selecionada</span>`;
 //     }
 
 //     editDivListaCats.innerHTML = template;

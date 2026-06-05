@@ -60,7 +60,6 @@ namespace Bibliotec_MVC_DEV.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> Excluir(int id)
         {
             string? adminSessao = HttpContext.Session.GetString("Admin");
@@ -68,12 +67,13 @@ namespace Bibliotec_MVC_DEV.Controllers
             {
                 return RedirectToAction("Index", "Login");
             }
+
             bool removido = await _livroService.RemoverLivroAsync(id);
 
             if(removido) return Ok();
 
             return NotFound();
-        }
 
+        }
     }
 }

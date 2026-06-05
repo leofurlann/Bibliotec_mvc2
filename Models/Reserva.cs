@@ -8,12 +8,12 @@ namespace Bibliotec_MVC_DEV.Models
     {
         [Key]
         public int Id { get; set; }
-
+        [Required]
         public DateTime DataReserva { get; set; }
 
         public DateTime? DataEmprestimo { get; set; }
 
-        public DateTime DataPrevistaDevolucao { get; set; }
+        public DateTime? DataPrevistaDevolucao { get; set; }
 
         public string? DanoLivro { get; set; }
 
